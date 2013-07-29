@@ -24,9 +24,22 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testXYLog
 {
-    STFail(@"Unit tests are not implemented yet in XYLogTests");
+    NSNumber *nu = @(2013);
+    XYLog(@"nu = %@", nu);
+    
+    NSString *str = @"hello, this is XYLog!";
+    XYLog(@"%@", str);
+    
+    NSArray *arr = @[@"1", @"2", @"3"];
+    XYLog(@"%@", arr);
+    
+    NSDictionary *dict = @{@"作者": @"学长"};
+    XYLog(@"%@", dict);
+    
+    NSDate *today = [NSDate date];
+    XYLog(@"today = %@", today);
 }
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042825E217A5EE6B009AFD1F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042825E117A5EE6A009AFD1F /* MainViewController.m */; };
+		042825E617A5EE94009AFD1F /* XYLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 042825E517A5EE94009AFD1F /* XYLog.m */; };
 		7830F925178133B800448054 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7830F924178133B800448054 /* UIKit.framework */; };
 		7830F927178133B800448054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7830F926178133B800448054 /* Foundation.framework */; };
 		7830F929178133B800448054 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7830F928178133B800448054 /* CoreGraphics.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042825E017A5EE6A009AFD1F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		042825E117A5EE6A009AFD1F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		042825E417A5EE94009AFD1F /* XYLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLog.h; sourceTree = "<group>"; };
+		042825E517A5EE94009AFD1F /* XYLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLog.m; sourceTree = "<group>"; };
 		7830F921178133B800448054 /* XYLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7830F924178133B800448054 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7830F926178133B800448054 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -79,6 +85,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042825DC17A5EB57009AFD1F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				042825E017A5EE6A009AFD1F /* MainViewController.h */,
+				042825E117A5EE6A009AFD1F /* MainViewController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		042825E317A5EE94009AFD1F /* XYLog */ = {
+			isa = PBXGroup;
+			children = (
+				042825E417A5EE94009AFD1F /* XYLog.h */,
+				042825E517A5EE94009AFD1F /* XYLog.m */,
+			);
+			path = XYLog;
+			sourceTree = "<group>";
+		};
 		7830F918178133B700448054 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +136,8 @@
 		7830F92A178133B800448054 /* XYLog */ = {
 			isa = PBXGroup;
 			children = (
+				042825E317A5EE94009AFD1F /* XYLog */,
+				042825DC17A5EB57009AFD1F /* Class */,
 				7830F933178133B800448054 /* AppDelegate.h */,
 				7830F934178133B800448054 /* AppDelegate.m */,
 				7830F92B178133B800448054 /* Supporting Files */,
@@ -263,6 +289,8 @@
 			files = (
 				7830F931178133B800448054 /* main.m in Sources */,
 				7830F935178133B800448054 /* AppDelegate.m in Sources */,
+				042825E217A5EE6B009AFD1F /* MainViewController.m in Sources */,
+				042825E617A5EE94009AFD1F /* XYLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +463,7 @@
 				7830F955178133B800448054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7830F956178133B800448054 /* Build configuration list for PBXNativeTarget "XYLogTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +472,7 @@
 				7830F958178133B800448054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
