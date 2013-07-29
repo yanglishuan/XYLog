@@ -19,6 +19,7 @@
 
 void XYLog_s(NSString *format, ...)
 {
+#if DEBUG == 1
     va_list ap;
     char *p;
     int ival;
@@ -110,4 +111,5 @@ void XYLog_s(NSString *format, ...)
     }
     putchar('\n');
     va_end(ap);
+#endif
 }

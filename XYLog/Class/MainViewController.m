@@ -42,6 +42,8 @@
     
     NSDate *today = [NSDate date];
     XYLog(@"today = %@", today);
+    
+    XYLog_s(@"%@", today);
 }
 
 - (void)didReceiveMemoryWarning
