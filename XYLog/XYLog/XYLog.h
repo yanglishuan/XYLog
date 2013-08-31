@@ -18,7 +18,12 @@
 #import <Foundation/Foundation.h>
 
 void XYLog_s(NSString *format, ...);
-#define XYLog( format, ... ) XYLog_s( @"<%@, %@, line: %d>\n%@",  \
+#define XYLog( format, ... ) XYLog_s( @"😄 <%@, %@, line: %d>\n%@",  \
+[[NSString stringWithUTF8String:__FILE__] lastPathComponent], \
+[NSString stringWithUTF8String:__func__], __LINE__,           \
+[NSString stringWithFormat:(format), ##__VA_ARGS__] )
+
+#define XYELog( format, ... ) XYLog_s( @"😓 <%@, %@, line: %d>\n%@",  \
 [[NSString stringWithUTF8String:__FILE__] lastPathComponent], \
 [NSString stringWithUTF8String:__func__], __LINE__,           \
 [NSString stringWithFormat:(format), ##__VA_ARGS__] )

@@ -344,7 +344,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: qingfeng dong (JFQG8HZYD9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: qingfeng dong (JFQG8HZYD9)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -359,6 +360,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "D1595C32-79F7-4905-B9E5-F7A82E43BF4E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D1595C32-79F7-4905-B9E5-F7A82E43BF4E";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -375,7 +378,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: qingfeng dong (JFQG8HZYD9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: qingfeng dong (JFQG8HZYD9)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -383,6 +387,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "D1595C32-79F7-4905-B9E5-F7A82E43BF4E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D1595C32-79F7-4905-B9E5-F7A82E43BF4E";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -391,10 +397,14 @@
 		7830F954178133B800448054 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: qingfeng dong (JFQG8HZYD9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: qingfeng dong (JFQG8HZYD9)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XYLog/XYLog-Prefix.pch";
 				INFOPLIST_FILE = "XYLog/XYLog-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D1595C32-79F7-4905-B9E5-F7A82E43BF4E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D1595C32-79F7-4905-B9E5-F7A82E43BF4E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -402,10 +412,14 @@
 		7830F955178133B800448054 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: qingfeng dong (JFQG8HZYD9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: qingfeng dong (JFQG8HZYD9)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XYLog/XYLog-Prefix.pch";
 				INFOPLIST_FILE = "XYLog/XYLog-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D1595C32-79F7-4905-B9E5-F7A82E43BF4E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D1595C32-79F7-4905-B9E5-F7A82E43BF4E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

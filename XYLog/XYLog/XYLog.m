@@ -33,7 +33,7 @@ void XYLog_s(NSString *format, ...)
     tempval[0] = '\0';
     BOOL rc = YES;
     
-    printf("😃 ");
+//    printf("\ue415 ");
     
     va_start(ap, format);
     for (p = (char *)[format UTF8String]; *p; p++) {

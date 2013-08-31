@@ -37,13 +37,17 @@
     NSArray *arr = @[@"1", @"2", @"3"];
     XYLog(@"%@", arr);
     
+    XYELog(@"err, today is a bad day");
+    
     NSDictionary *dict = @{@"author": @"xue zhang"};
     XYLog(@"%@", dict);
     
     NSDate *today = [NSDate date];
     XYLog(@"today = %@", today);
     
-    XYLog_s(@"%@", today);
+    XYELog(@"err, today is a bad day");
+    
+    XYLog(@"today is %@", today);
 }
 
 - (void)didReceiveMemoryWarning
